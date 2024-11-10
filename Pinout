@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Social Platform</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Welcome to My Social Platform</h1>
+    </div>
+    <div class="feed">
+        <div class="post">
+            <h2>User Name</h2>
+            <p>This is a sample post content.</p>
+        </div>
+        <!-- Add more posts here -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.feed {
+    margin: 20px;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+// Sample JavaScript code for future functionalities
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("Website Loaded Successfully!");
+});
